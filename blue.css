@@ -1,0 +1,30 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  
+  .blue > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color:blue;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  
+  .blue > p{
+      animation-delay: 1.75s;
+  }

@@ -1,0 +1,30 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  
+  .indigo > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color:indigo;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  
+  .indigo > p {
+      animation-delay: 2s;
+  }

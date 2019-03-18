@@ -1,0 +1,29 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  
+  .violet > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color: violet;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  .violet > p{
+      animation-delay: 2.25s;
+  }

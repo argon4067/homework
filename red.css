@@ -1,0 +1,29 @@
+
+
+body {
+  
+  font-size: 200%;
+  
+}
+
+.red > p {
+  
+  animation: key 2.25s  infinite;;
+}
+
+
+@keyframes key {
+  0%, 100% {
+    color: red;
+  }
+  
+  10%, 90% {
+    color:white;
+  }
+}
+
+
+.red > p {
+	animation-delay: 0.25s;
+}
+

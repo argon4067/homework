@@ -1,0 +1,32 @@
+
+
+body {
+  
+    font-size: 200%;
+    
+  }
+  
+  .pink > p {
+    
+    animation: key 2.25s  infinite;;
+  }
+  
+  
+  @keyframes key {
+    0%, 100% {
+      color: pink;
+    }
+    
+    10%, 90% {
+      color:white;
+    }
+  }
+  
+  
+  
+  
+  .pink > p {
+      animation-delay: 0.5s;
+  }
+  
+  
